@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.con{
+    position: relative;
+    width: 100%;
+}
+.slide{
+    width: 100%;
+    position: absolute;
+}
+.slide img{
+    width: 100%;
+}
+.left{
+    position: absolute;
+    top: 270px;
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+}
+.right{
+    position: absolute;
+    top: 270px;
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1212px;
+}
+.caption{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 13px;
+    color: whitesmoke;
+    background-color: azure;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: -62px;
+    margin-left: -4%;
+}
+.slide{
+    display: none;
+}
